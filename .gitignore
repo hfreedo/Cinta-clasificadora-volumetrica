@@ -1,0 +1,30 @@
+# Distribuciones y artefactos generados: adjuntar a Releases, no al código fuente.
+/Entregas/
+**/build/
+**/dist/
+**/__pycache__/
+*.py[cod]
+*.elf
+*.hex
+*.o
+*.a
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Pruebas locales del portable y archivos de diagnóstico del empaquetador.
+**/qa/portable_*/
+**/qa/debug/
+**/qa/*runtime.json
+**/qa/*.png
+**/Debug.spec
+
+# Datos locales y secretos.
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
